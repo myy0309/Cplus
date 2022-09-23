@@ -18,7 +18,7 @@ Son::Son(int stdNum) : Father(0, 0.0), stdNum(stdNum) {
 Son::~Son() {
 }
 
-void Son::printMoney(){
-	cout << "Son's money is " << money << endl;
-}
+//void Son::printMoney(){
+//	cout << "Son's money is " << money << endl;
+//}
 

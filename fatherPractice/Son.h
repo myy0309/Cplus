@@ -15,7 +15,7 @@ private:
 public:
 	Son(int stdNum);
 	virtual ~Son();
-	void printMoney();
+	//void printMoney();
 };
 
 #endif /* SON_H_ */

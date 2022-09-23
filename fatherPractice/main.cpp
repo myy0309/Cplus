@@ -15,7 +15,7 @@ int main(){
 	sonny.printAge();
 
 	sonny.printMoney();
-	//sonny.printMoney(100);
+	sonny.printMoney(100);
 
 	//sonny->money = 80.0;
 
