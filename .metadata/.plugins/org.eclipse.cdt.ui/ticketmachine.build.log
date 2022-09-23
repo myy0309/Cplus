@@ -1,0 +1,6 @@
+21:42:33 **** Incremental Build of configuration Debug for project ticketmachine ****
+make all 
+make: Nothing to be done for `all'.
+
+21:42:34 Build Finished. 0 errors, 0 warnings. (took 515ms)
+

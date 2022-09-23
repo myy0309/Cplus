@@ -1,0 +1,18 @@
+/*
+ * Student.cpp
+ *
+ *  Created on: 2022年9月21日
+ *      Author: moyuyue
+ */
+
+#include "Student.h"
+
+Student::Student() {
+	this->age = 18;
+
+}
+
+Student::~Student() {
+	// TODO Auto-generated destructor stub
+}
+

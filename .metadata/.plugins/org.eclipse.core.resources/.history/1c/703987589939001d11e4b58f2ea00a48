@@ -1,0 +1,17 @@
+/*
+ * String.h
+ *
+ *  Created on: 2022年9月21日
+ *      Author: moyuyue
+ */
+
+#ifndef STRING_H_
+#define STRING_H_
+
+class String {
+public:
+	String();
+	virtual ~String();
+};
+
+#endif /* STRING_H_ */

@@ -1,0 +1,21 @@
+/*
+ * TicketMachine.cpp
+ *
+ *  Created on: 2022年9月19日
+ *      Author: moyuyue
+ */
+
+#include "TicketMachine.h"
+
+TicketMachine::TicketMachine() {
+	// TODO Auto-generated constructor stub
+
+}
+
+TicketMachine::~TicketMachine() {
+	// TODO Auto-generated destructor stub
+}
+
+void TicketMachine::showPrompt() {
+	 cout << "prompt";
+}

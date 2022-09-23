@@ -1,0 +1,18 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 2022年9月22日
+ *      Author: moyuyue
+ */
+
+#include "Father.h"
+#include "Son.h"
+
+int main(){
+	Father dad;
+	Son sonny;
+
+	return 0;
+}
+
+

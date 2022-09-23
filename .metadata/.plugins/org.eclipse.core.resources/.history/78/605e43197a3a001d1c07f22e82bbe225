@@ -1,0 +1,28 @@
+/*
+ * Father.cpp
+ *
+ *  Created on: 2022年9月22日
+ *      Author: moyuyue
+ */
+
+#include "Father.h"
+#include <iostream>
+using namespace std;
+
+Father::Father() {
+	this->age = 35;
+
+}
+
+Father::~Father() {
+	// TODO Auto-generated destructor stub
+}
+
+
+void Father::setAge(int age){
+	this->age = age;
+}
+void Father::printAge(){
+	cout << "My age is " << age << endl;
+}
+

@@ -1,0 +1,20 @@
+//============================================================================
+// Name        : helloWorld.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int number;
+
+	cout << "Hello World!" << endl;
+	cout << "Enter your age "<< endl;
+	cin >> number;
+	cout << "You are " << number << " years old" << endl;
+	return 0;
+}

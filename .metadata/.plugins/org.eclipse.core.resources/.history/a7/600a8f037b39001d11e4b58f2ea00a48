@@ -1,0 +1,14 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 2022年9月19日
+ *      Author: moyuyue
+ */
+
+#include "ticketmachine.h"
+
+int main(){
+
+
+	return 0;
+}

@@ -1,0 +1,20 @@
+/*
+ * Son.cpp
+ *
+ *  Created on: 2022年9月22日
+ *      Author: moyuyue
+ */
+
+#include "Son.h"
+
+Son::Son() {
+	// this->age = 18;
+	setAge(18);
+	this->money = 90.0;
+
+}
+
+Son::~Son() {
+	// TODO Auto-generated destructor stub
+}
+

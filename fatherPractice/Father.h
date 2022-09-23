@@ -1,0 +1,26 @@
+/*
+ * Father.h
+ *
+ *  Created on: 2022年9月22日
+ *      Author: moyuyue
+ */
+
+#ifndef FATHER_H_
+#define FATHER_H_
+
+class Father {
+private:
+	int age;
+protected:
+	float money;
+public:
+	//Father();
+	Father(int age, float money);
+	virtual ~Father();
+	void setAge(int age);
+	void printAge();
+	void printMoney();
+	void printMoney(int i);
+};
+
+#endif /* FATHER_H_ */

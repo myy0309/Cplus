@@ -1,0 +1,17 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 2022年9月19日
+ *      Author: moyuyue
+ */
+
+#include "ticketmachine.h"
+
+int main(){
+	//TicketMachine tm;
+	TicketMachine tm(100);
+	tm.insertMoney(100);
+	tm.showBalance();
+
+	return 0;
+}

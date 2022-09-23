@@ -1,0 +1,19 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 2022年9月21日
+ *      Author: moyuyue
+ */
+
+#include "Student.h"
+
+int main(){
+	Student s;
+	Student s1(20, 48.0);
+
+	s.showAge();
+	s1.showAge();
+	return 0;
+}
+
+

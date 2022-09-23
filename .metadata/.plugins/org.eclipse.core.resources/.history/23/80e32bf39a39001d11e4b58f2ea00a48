@@ -1,0 +1,16 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 2022年9月21日
+ *      Author: moyuyue
+ */
+
+#include "Student.h"
+
+int main(){
+	Student s;
+	Student s1(20);
+	return 0;
+}
+
+
