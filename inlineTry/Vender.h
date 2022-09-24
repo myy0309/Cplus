@@ -14,9 +14,12 @@ private:
 public:
 	Vender();
 	virtual ~Vender();
-	inline int insertMoney(int cash){
+	int insertMoney(int cash);
+
+};
+
+inline int Vender::insertMoney(int cash){ //keyword 'inline' cannot be omitted
 		return money += cash;
 	};
-};
 
 #endif /* VENDER_H_ */
