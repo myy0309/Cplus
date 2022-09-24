@@ -11,6 +11,7 @@ using namespace std;
 
 int main(){
 	Vender v;
+	v.setMoney(30);
 	int a = v.insertMoney(2);
 	cout << a << endl;
 }
