@@ -1,32 +1,7 @@
 #include <iostream>
 #include <string>
-using namespace::std;
-
-class Person{
-private:
-    int age;
-    string name;
-public:
-    // constructor
-    Person(){
-        this->name = "Zhang San";
-        this->age = 18;
-    }
-    Person(int age, string name):age(age), name(name){
-    }
-    // copy constructor
-    Person(const Person &p){
-        this->age = p.age;
-        this->name = p.name;
-    }
-    
-    string getName(){
-        return this->name;
-    }
-    int getAge(){
-        return this->age;
-    }
-};
+#include "Person.h"
+using namespace std;
 
 int main() {
     Person p1; // do not put an empty bracket after p1, compiler will take it as function definition
