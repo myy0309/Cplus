@@ -22,3 +22,8 @@ string Person::getName(){
 int Person::getAge(){
     return this->age;
 }
+
+int Person::setAge(int new_age){
+    this->age = new_age;
+    return this->age;
+}

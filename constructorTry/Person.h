@@ -11,15 +11,16 @@
 using namespace std;
 
 class Person {
-private:
-    int age;
-    string name;
 public:
     Person();
     Person(int age, string name);
     Person(const Person &p);
     string getName();
     int getAge();
+    int setAge(int new_age);
+private:
+    int age;
+    string name;
 };
 
 
