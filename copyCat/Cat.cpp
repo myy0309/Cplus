@@ -10,7 +10,7 @@ Cat::Cat(){
     this->length = new int(50);
 }
 
-Cat::Cat(double speed, string name, int age, int length):speed(speed), name(name),age(age){
+Cat::Cat(double speed, string name, int age, int length, string type, string color):speed(speed), name(name), age(age), my_tail(type, color){
     this->length = new int(length); // new will return an int address (*int)
 }
 
@@ -41,4 +41,6 @@ int Cat::getAge(){
 int* Cat::getLength(){
     return this->length;
 }
-
+Tail& Cat::getTail(){
+    return this->my_tail;
+}
