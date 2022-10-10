@@ -4,7 +4,7 @@ using namespace std;
 
 class Animal{
 public:
-    void speak(){
+    virtual void speak(){
         cout << "speaking" << endl;
     }
 };
@@ -16,8 +16,8 @@ public:
     }
 };
 
-// early bind: the address is determined when compiling
-void doSpeak(Animal a){
+// late bind: the address is determined when the code is running
+void doSpeak(Animal &a){
     a.speak();
 }
 
