@@ -4,9 +4,7 @@ using namespace std;
 
 class Animal{
 public:
-    virtual void speak(){
-        cout << "speaking" << endl;
-    }
+    virtual void speak() = 0;
 };
 
 class Cat : public Animal{
@@ -17,7 +15,7 @@ public:
 };
 
 // late bind: the address is determined when the code is running
-void doSpeak(Animal &a){
+void doSpeak(Animal &a){ // Animal &a = cat
     a.speak();
 }
 
