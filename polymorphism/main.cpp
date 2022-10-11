@@ -5,12 +5,26 @@ using namespace std;
 class Animal{
 public:
     virtual void speak() = 0;
+    // the deconstructor in base class must be virtual
+    // otherwise the deconstructor in son class will not be executed
+    virtual ~Animal(){
+        // some code
+    }
 };
-
 class Cat : public Animal{
 public:
+    string *name;
+    Cat(string name){
+        this->name = new string(name);
+    }
     void speak(){
-        cout << "Meow Meow!" << endl;
+        cout << *name <<": Meow Meow!" << endl;
+    }
+    ~Cat(){
+        if (this->name != NULL){
+            delete name;
+            name = NULL;
+        }
     }
 };
 
@@ -20,7 +34,7 @@ void doSpeak(Animal &a){ // Animal &a = cat
 }
 
 void test1(){
-    Cat c;
+    Cat c("Tom");
     doSpeak(c);
 }
 
